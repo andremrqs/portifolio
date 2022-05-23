@@ -24,9 +24,9 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
+        title="André | Fullstack Developer"
+        titleTemplate="André | Fullstack Developer"
+        defaultTitle="André | Fullstack Developer"
         description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
         openGraph={{
           url: "https://www.anurag.tech/",
