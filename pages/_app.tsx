@@ -25,33 +25,34 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Script>
       <NextSeo
         title="André | Fullstack Developer"
-        titleTemplate="André | Fullstack Developer"
-        defaultTitle="André | Fullstack Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        titleTemplate="André Marques"
+        defaultTitle="André Marques"
+        description="Hey! I'm Andre, A Fullstack Developer, Blogger and a Student!"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "https://www.andre.tech/",
+          title: "Andre | Fullstack Developer",
           description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+            "Hey! I'm Andre, A Fullstack Developer, Blogger and a Student!",
           images: [
             {
+              //preview image
               url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Andre Marques | Fullstack Developer",
             },
           ],
         }}
         twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
+          handle: "@kr_andre_",
+          site: "@kr_andre_",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "Frontend Developer, andre, andre, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
           },
         ]}
       />
